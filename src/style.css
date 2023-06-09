@@ -1,0 +1,17 @@
+:root {
+  --heading-font: "Playfair Display", serif;
+  --text-font: "Poppins", sans-serif;
+}
+
+body {
+  background-color: aqua;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+
+div {
+  font-family: var(--text-font);
+}
