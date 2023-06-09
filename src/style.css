@@ -24,7 +24,10 @@ h2 {
   padding: 10px;
   margin-bottom: 40px;
 }
-
+h3 {
+  font-family: var(--text-font);
+  margin: 10px;
+}
 .hero {
   background-color: #f9f7fe;
   padding: 100px 20px;
@@ -51,7 +54,7 @@ h2 {
 
 .homepageImage {
   width: 400px;
-  height: auto;
+  height: 300px;
   border: 5px solid #e5dfff;
   border-radius: 5px;
 }
@@ -60,4 +63,9 @@ h2 {
   max-width: 100%;
   height: auto;
   margin-bottom: 50px;
+}
+
+.projectInfo {
+  text-align: left;
+  width: 500px;
 }
