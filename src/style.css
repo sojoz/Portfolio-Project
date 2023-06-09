@@ -4,14 +4,47 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
 }
 
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
+  font-size: 96px;
+  padding: 0px 30px;
+  margin-top: 0px;
 }
 
-div {
+h2 {
   font-family: var(--text-font);
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.hero {
+  background-color: #f9f7fe;
+  padding: 160px 20px;
+}
+
+.hero1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.contactLink {
+  font-family: var(--text-font);
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #6c63ff;
+  border-radius: 4px;
+  padding: 18px;
+  width: 200px;
+  margin-top: 30px;
 }
