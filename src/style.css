@@ -130,3 +130,71 @@ p {
     padding-bottom: 30px;
   }
 }
+
+/* About page */
+
+.about-section-content {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0px 30px;
+  margin-top: 40px;
+}
+h2 {
+  font-family: var(--text-font);
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.about-me-text {
+  text-align: left;
+  font-family: var(--text-font);
+  font-size: 15px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.work-link {
+  font-family: var(--text-font);
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #e5dfff;
+  border-radius: 4px;
+  padding: 18px;
+  width: 200px;
+}
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+  border: 5px solid #e5dfff;
+  border-radius: 700px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .work-link {
+    margin: 0 auto;
+  }
+
+  .about-section-content {
+    margin-top: 30px;
+  }
+  .about-me-text {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .profile-pic {
+    width: 200px;
+    margin-top: 30px;
+  }
+}
