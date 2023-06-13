@@ -15,6 +15,7 @@ h1 {
   font-size: 96px;
   padding: 0px 30px;
   margin-top: 0px;
+  color: #69349c;
 }
 
 h2 {
@@ -23,21 +24,35 @@ h2 {
   font-weight: 400;
   padding: 10px;
   margin-bottom: 40px;
+  color: #8f6bce;
 }
 h3 {
   font-family: var(--text-font);
   margin: 10px;
+  color: #69349c;
 }
 .hero {
-  background-color: #f9f7fe;
-  padding: 100px 20px;
+  min-height: 50vh;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.01);
+  padding: 80px 20px;
+  opacity: 0.8;
 }
-
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 40%;
+  min-height: 40%;
+  z-index: -1;
+  opacity: 0.8;
+}
 .hero1 {
   font-size: 36px;
   font-weight: 700;
   margin: 0 auto;
-  color: #272142;
+  color: #8f6bce;
 }
 
 .contactLink {
@@ -83,13 +98,18 @@ h3 {
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  color: white;
-  background-color: #e5dfff;
+  color: #8f6bce;
+  background-color: white;
   border-radius: 4px;
   padding: 18px;
   width: 200px;
+  border: solid 2px #8f6bce;
 }
-
+.project-link:hover {
+  background-color: #8f6bce;
+  color: white;
+  transition: all ease-in-out 200ms;
+}
 .project-container {
   margin: 48px;
 }
