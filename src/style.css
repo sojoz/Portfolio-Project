@@ -305,3 +305,76 @@ p {
     font-size: 40px;
   }
 }
+
+/* Contact page */
+
+.video-bg-contact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 20%;
+  min-height: 20%;
+  z-index: -1;
+  opacity: 0.8;
+}
+.contact-details-container {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.01);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.contact-details-link {
+  text-decoration: none;
+  font-family: var(--text-font);
+  color: #8f6bce;
+  text-align: center;
+}
+.contact-details-link:hover {
+  color: #69349c;
+  cursor: pointer;
+}
+.hero-contact {
+  font-family: var(--heading-font);
+  color: #69349c;
+  font-size: 50px;
+  font-weight: 600;
+}
+.contact-info-row {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+i {
+  color: #69349c;
+}
+
+#work-header {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .contact-info-row {
+    flex-direction: column;
+    height: 400px;
+    background: #f6f2fe;
+    margin-top: 0px;
+    text-align: center;
+  }
+  #work-header {
+    background: none;
+  }
+  .col-4 {
+    flex: 1;
+    margin: 0 auto;
+    height: fit-content;
+    text-align: center;
+    width: auto;
+  }
+}
