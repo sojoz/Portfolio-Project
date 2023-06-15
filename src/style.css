@@ -8,7 +8,41 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+nav {
+  font-family: var(--text-font);
+  color: #69349c;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav a {
+  padding-top: 20px;
+  text-decoration: none;
+  color: #530080;
+}
+nav a:hover,
+nav li.active a {
+  color: #8f6bce;
+  transition: all 100ms ease-in-out;
+}
 
+.logo {
+  max-width: 100px;
+  display: list-item;
+  margin: 0px;
+}
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
@@ -148,6 +182,13 @@ p {
   }
   .hero {
     padding-bottom: 30px;
+  }
+  .logo {
+    display: none;
+  }
+  nav {
+    padding-left: 40px;
+    padding-bottom: 5px;
   }
 }
 
