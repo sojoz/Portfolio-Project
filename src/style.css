@@ -32,6 +32,9 @@ nav a {
   text-decoration: none;
   color: #530080;
 }
+.active {
+  color: #8f6bce;
+}
 nav a:hover,
 .footer-social-links nav li.active a {
   color: #8f6bce;
@@ -64,6 +67,9 @@ h3 {
   font-family: var(--text-font);
   margin: 10px;
   color: #530080;
+}
+h4 {
+  font-weight: 900;
 }
 .hero {
   min-height: 50vh;
@@ -172,7 +178,6 @@ p {
   padding-bottom: 20px;
   border-radius: 5px;
   margin-bottom: 40px;
-  font-family: ;
 }
 .contact-box h4 {
   font-family: var(--heading-font);
@@ -238,6 +243,9 @@ p {
   .contact-box {
     max-width: 400px;
   }
+  .contact-box a {
+    width: 150px;
+  }
 }
 
 /* About page */
@@ -262,22 +270,26 @@ p {
   margin-bottom: 20px;
 }
 .about-me-text {
-  text-align: left;
   font-family: var(--text-font);
   font-size: 15px;
-  margin-left: 30px;
-  margin-bottom: 50px;
-  padding: 10px 10px 0px 10px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #69349c;
 }
 .about-me-info {
-  min-height: 40vh;
+  min-height: 20vh;
   position: relative;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.01);
-  padding: 20px 20px;
-  width: auto;
   border: #e5dfff solid 2px;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: fit-content;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
 .video-bg-about {
