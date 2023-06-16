@@ -241,7 +241,7 @@ p {
     display: block;
   }
   .contact-box {
-    max-width: 400px;
+    max-width: 300px;
   }
   .contact-box a {
     width: 100px;
@@ -353,7 +353,7 @@ p {
 
 .work-images {
   width: 400px;
-  height: 400px;
+  height: 250px;
   object-fit: cover;
   border-radius: 4px;
 }
