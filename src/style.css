@@ -278,6 +278,7 @@ p {
   display: block;
   margin: 0 auto;
   color: #69349c;
+  text-decoration: none;
 }
 .about-me-info {
   min-height: 20vh;
