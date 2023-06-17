@@ -335,14 +335,20 @@ p {
   .about-section-content {
     margin-top: 30px;
   }
-  .about-me-text {
+  .about-me-info {
+    display: block;
     margin: 0 auto;
-    text-align: center;
-    margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .about-me-text {
+    padding-bottom: 0px;
   }
   .profile-pic {
     width: 200px;
     margin-top: 30px;
+    display: block;
+    margin: 0 auto;
   }
   .hero {
     min-height: 40vh;
