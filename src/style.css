@@ -386,7 +386,11 @@ p {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+.last-project {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 .content {
   position: relative;
   overflow: hidden;
